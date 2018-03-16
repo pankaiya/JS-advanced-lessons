@@ -18,7 +18,7 @@ console.log(a3 === b3);//false
 
 var a4 = new Number(200);
 var b4 = 200;
-console.log(a4 == b4);//true  思考：是b4转换了，还是a4转换了
+console.log(a4 == b4);//true  思考：是b4转换了，还是a4转换了？
 console.log(a4 === b4);//false
 
 var a5 = {x:1,y:2};
