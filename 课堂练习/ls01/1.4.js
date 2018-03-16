@@ -1,6 +1,6 @@
 //基本（原始）数据类型与引用（对象）类型的区别1 判等不同
-var a1 = 100;
-var b1 = 100;
+var a1 = 10;
+var b1 = 10;
 console.log(a1 == b1);//true
 console.log(a1 === b1);//true
 
