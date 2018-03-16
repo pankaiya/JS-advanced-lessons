@@ -1,1 +1,1 @@
-console.log(typeof 23);
+console.log(typeof 24);
