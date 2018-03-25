@@ -16,7 +16,7 @@ console.log({x:2}&&{name:"Jack"});//object{name:"Jack"}
 console.log(null&&"hello");//hello
 console.log({}&&"world");//world
 
-//操作数非布尔类型，||短路原则（若左操作数为true，则直接返回原始左操作数；若为false,则直接返回原始右操作数
+//操作数非布尔类型，||短路原则（若左操作数为true，则直接返回原始左操作数；若为false,则直接返回原始右操作数）
 console.log(2||4);//2
 console.log(0||4);//4
 console.log({x:2}||{name:"Jack"});//object{x:2}
