@@ -65,7 +65,7 @@ var result1=f1();
 var result2=f1();
 document.onclick = result1; // 输出多少？
 nAdd();
-result2(); // 输出多少   11
+result2(); // 输出多少  11
 
 
 //////
