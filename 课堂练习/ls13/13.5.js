@@ -20,13 +20,13 @@ for(var i in obj2)
     console.log(obj2[i]);
 }
 
-//思考obj3 和 obj4 内容是什么？为什么？ 都只有一个数据9
+//思考obj3 和 obj4 内容是什么？为什么？ 
 var obj3 = {};
 for(var i=0;i<10;i++){
     obj3.i = i;
-}
+}//{i:9}
 
 var obj4 = {};
 for(var i=0;i<10;i++){
     obj4[i] = i;
-}
+}//{0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9}
