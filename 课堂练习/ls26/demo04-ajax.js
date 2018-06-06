@@ -18,7 +18,6 @@ xhr.send();
 
 
 
-
 // 域名检测
 // http://panda.www.net.cn/cgi-bin/check.cgi?area_domain=qq.com
 

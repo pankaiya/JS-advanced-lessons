@@ -13,6 +13,7 @@ http.createServer(function (req, res) {
         "Access-Control-Allow-Origin":"*", //在后端支持跨域访问的设置，响应头中的设置
         "Access-Control-Allow-Methods": "GET, POST"
     });
+    
     setTimeout(function () {
         res.end("你好，我已收到你发的信息："+getDataStr);
     },20000*Math.random());

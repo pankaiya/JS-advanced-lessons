@@ -37,4 +37,4 @@ setTimeout(function(){
     //sub.print();
 },5000);
 
-//Promise 参见ES6部分///////////////////////
+//Promise 参见ES6部分//////////////////////

@@ -36,7 +36,7 @@ for(var i = 0;i<5;i++){
 }
 
 
-// Part22222222222222  事件触发与事件监听
+// Part2222222222222  事件触发与事件监听
 // 案例一 在控制台中输出window 和 document ，看看window中的on 和document中的on
 document.onclick = function () {
     console.log("document 被点击了！");
